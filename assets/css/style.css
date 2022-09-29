@@ -58,6 +58,12 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*shifted content below hero*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
 .float-left {
     float: left;
@@ -67,12 +73,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -115,10 +115,10 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* change marging from 10 to 50px */
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: 50px auto;
     max-width: 150px;
 }
 
@@ -197,4 +197,4 @@ p {
 
 .footer h2 {
     font-size: 20px;
-}
+} */
